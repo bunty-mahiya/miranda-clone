@@ -1,0 +1,1281 @@
+
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+
+        }
+
+
+
+        body {
+            color: #1C1C1A;
+        }
+        #main-page{
+            background-color: #1d1d1b;
+        }
+        .hamburger {
+            position: absolute;
+            z-index: 100;
+            top: 1rem;
+            right: 1rem;
+            padding: 4px;
+            background-color:#C6BEB4;
+            cursor: pointer;
+          }
+          .closeIcon {
+            display: none;
+          }
+          .menu {
+            position: fixed;
+            transform: translateY(-100%);
+            transition: transform 0.2s;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 99;
+            background: black;
+            color: white;
+            list-style: none;
+            padding-top: 4rem;
+          }
+          .showMenu {
+            transform: translateY(0);
+          }
+
+        .first-page {
+            height: 100%;
+            width: 100%;
+            background-color: #C6BEB4;
+            overflow: hidden;
+            
+            
+        }
+      
+            
+        
+
+        .naber {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 0.1px solid #726E68;
+            position: static;
+
+
+        }
+
+        .naber .first {
+            margin-left: 15px;
+            font-size: 11px;
+            font-family: sans-serif;
+            line-height: 12px;
+            font-weight: 300;
+
+        }
+
+        .naber .second {
+            font-family: "Editorial New", sans-serif;
+            font-weight: 300;
+            line-height: 34px;
+            font-size: 29px;
+            color: #1d1d1b;
+        }
+
+        .naber .second img {
+            width: 110px;
+            margin-right: 75px;
+        }
+
+        .naber .third {
+            margin-right: 15px;
+            font-size: 20px;
+        }
+
+        .naber p {
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+
+        #home {
+            display: flex;
+        }
+
+        #home .home1 {
+            width: 31.3%;
+            margin: 18px;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        #home .home1 img {
+            object-fit: cover;
+            width: 100%;
+            transition: all ease 0.4s;
+            border: 1px solid black;
+        }
+
+        #home .home1 img:hover {
+            scale: 1.1;
+        }
+
+        #home .home1 h3 .img1 {
+            text-transform: uppercase;
+            display: flex;
+            margin: 5px;
+            width: 80px;
+            font-family: sans-serif;
+            font-weight: 300;
+            line-height: 34px;
+            font-size: 20px;
+            margin: 10px 0px;
+        }
+
+        #home .home1 h3 {
+            display: flex;
+
+        }
+
+        #home .home1 h3 span {
+            font-size: 18px;
+            margin: 3px;
+            width: 45px;
+            height: 20px;
+            padding: 0px 2px;
+            font-family: sans-serif;
+            background-color: #BA3D12;
+            color: #C6BEB4;
+            text-transform: uppercase;
+
+
+        }
+
+        #home .home1 p::first-letter {
+            text-transform: capitalize;
+        }
+
+        #home .home1 p {
+            font-family: sans-serif;
+            font-size: 17px;
+        }
+
+        #home .home2 {
+            width: 30%;
+            margin: 18px;
+            padding: 20px;
+
+            border-left: 1px solid #726E68;
+            border-right: 1px solid #726E68;
+            text-align: center;
+        }
+
+        #home .home2 h1 {
+            text-transform: uppercase;
+            line-height: 24px;
+            font-weight: 300;
+            size: 500px;
+            font-size: 40px;
+            font-family: 'Oswald', sans-serif;
+            font-style: normal;
+        }
+
+        #home .home2 h2 {
+            text-transform: capitalize;
+            size: 300;
+            font-size: 30px;
+            margin-top: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #home .home2 h6 {
+            margin-top: 30px;
+            font-size: 15px;
+            text-transform: capitalize;
+            word-wrap: 5px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #home .home2 h6 span {
+            font-size: 20px;
+            text-transform: uppercase;
+            line-height: 24px;
+            font-weight: 300;
+            size: 500px;
+            font-family: 'Oswald', sans-serif;
+            font-style: normal;
+        }
+
+        #home .home3 {
+            width: 31.3%;
+            margin: 18px;
+            padding: 20px;
+            overflow: hidden;
+        }
+
+        #home .home3 img {
+            object-fit: cover;
+            width: 100%;
+            transition: all ease 0.4s;
+            border: 1px solid black;
+        }
+
+        #home .home3 img:hover {
+            scale: 1.1;
+        }
+
+        #home .home3 h3 .img1 {
+            text-transform: uppercase;
+            display: flex;
+            margin: 5px;
+            width: 100px;
+            font-family: sans-serif;
+            font-weight: 300;
+            line-height: 34px;
+            font-size: 20px;
+            margin: 10px 0px;
+        }
+
+        #home .home3 h3 {
+            display: flex;
+
+        }
+
+        #home .home3 h3 span {
+            font-size: 18px;
+            margin: 3px;
+            width: 45px;
+            height: 20px;
+            padding: 0px 2px;
+            font-family: sans-serif;
+            background-color: #BA3D12;
+            color: #C6BEB4;
+            text-transform: uppercase;
+
+
+        }
+
+        #home .home3 p::first-letter {
+            text-transform: capitalize;
+        }
+
+        #home .home3 p {
+            font-family: sans-serif;
+            font-size: 17px;
+        }
+
+        #miranda .miranda {
+            width: 95%;
+            background-color: #1C1C1A;
+            ;
+            color: #C6BEB4;
+            display: block;
+            height: 60vh;
+            margin: 0% auto;
+
+        }
+
+        #miranda .miranda p {
+            margin: 30px 0px;
+            font-size: 270px;
+            text-align: center;
+            text-transform: uppercase;
+            height: 500px;
+
+            font-weight: 500;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding-top: 50px;
+            object-fit: cover;
+
+        }
+
+        #artist {
+            display: flex;
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        #artist .art {
+            width: 35%;
+            padding: 20px;
+            border-right: 1px solid black;
+        }
+
+        #artist .digital-art {
+            width: 60%;
+            padding: 50px;
+            border-left: 1px solid #706D67;
+
+        }
+
+        #artist .art img {
+            width: 80%;
+
+            height: 500px;
+            margin-left: 35px;
+            border: 1px solid black;
+        }
+
+        #artist .digital-art img {
+            width: 50rem;
+            height: 600px;
+            border: 1px solid black;
+        }
+
+        #artist .art h1 {
+            font-size: 3.9rem;
+            text-transform: uppercase;
+            text-align: center;
+            font-family: 'Oswald';
+            font-weight: 500;
+            size: 200px;
+            color: #1C1C1A;
+
+        }
+
+        #artist .art h1 span {
+            font-size: 5.5rem;
+            line-height: 1px;
+            font-weight: 200;
+            color: #1C1C1A;
+        }
+
+        #artist .art h5 {
+            font-size: 40px;
+
+            word-spacing: 2px;
+            font-weight: 500;
+            line-height: 32px;
+            font-style: normal;
+            text-indent: 20px;
+            font-family: 'Oswald';
+            color: #1C1C1A;
+
+        }
+
+        #artist .art h5 span {
+            font-size: 65px;
+
+
+            width: 50px;
+            height: 70px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        }
+
+        #artist .art #h5 {
+            width: 100%;
+            height: 300px;
+        }
+
+        #artist .digital-art h2 {
+            size: 300px;
+            font-size: 75px;
+            margin-top: 40px;
+            margin-left: 20px;
+            color: #1C1C1A;
+
+            text-transform: uppercase;
+            text-decoration: line-through #938D86 0.5px;
+
+            font-family: 'Oswald';
+        }
+
+        #website .website {
+            width: 73%;
+            background-color: #1C1C1A;
+            ;
+            color: #C6BEB4;
+            display: block;
+            height: 45vh;
+            margin: 30px 10px 0px 30px;
+
+        }
+
+        #website {
+            display: flex;
+        }
+
+        #website .website p {
+
+            font-size: 235px;
+            text-align: center;
+            text-transform: uppercase;
+            height: 500px;
+
+            font-weight: 500;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding-top: 20px;
+
+            object-fit: cover;
+
+        }
+
+        #upcome {
+            display: flex;
+            width: 100%
+        }
+
+        .upcome {
+
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #upcome .upcome .home2 {
+            width: 40%;
+            margin: 18px;
+            height: 265px;
+
+            padding: 20px;
+
+
+
+        }
+
+        #upcome .upcome .home2 h1 {
+            text-transform: uppercase;
+            line-height: 24px;
+            font-weight: 300;
+            size: 500px;
+            font-size: 40px;
+            font-family: 'Oswald', sans-serif;
+            font-style: normal;
+        }
+
+        #upcome .upcome .home2 h2 {
+            text-transform: capitalize;
+            size: 300;
+            font-size: 30px;
+            margin-top: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #upcome .upcome.home2 h6 {
+            margin-top: 30px;
+            font-size: 15px;
+            text-transform: capitalize;
+            word-wrap: 5px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        #upcome .upcome .home2 h6 span {
+            font-size: 20px;
+            text-transform: uppercase;
+            line-height: 24px;
+            font-weight: 300;
+            size: 500px;
+            font-family: 'Oswald', sans-serif;
+            font-style: normal;
+        }
+
+        #upcome .upcome .home1 {
+            width: 50%;
+            height: 275px;
+            margin: 18px;
+            padding: 20px;
+            overflow: hidden;
+            border-left: 1px solid #726E68;
+
+        }
+
+        #upcome .upcome .home1 img {
+            object-fit: cover;
+            width: 100%;
+            transition: all ease 0.4s;
+
+        }
+
+        #upcome .upcome .home1 img:hover {
+            scale: 1.1;
+        }
+
+        #upcome .upcome .home1 h3 .img1 {
+            text-transform: uppercase;
+            display: flex;
+            margin: 5px;
+            width: 115px;
+            font-family: sans-serif;
+            font-weight: 300;
+            line-height: 34px;
+            font-size: 20px;
+            margin: 10px 0px;
+        }
+
+        #upcome .upcome .home1 h3 {
+            display: flex;
+
+        }
+
+        #upcome .upcome .home1 h3 span {
+            font-size: 18px;
+            margin: 3px;
+            width: 45px;
+            height: 20px;
+            padding: 0px 2px;
+            font-family: sans-serif;
+            background-color: #BA3D12;
+            color: #C6BEB4;
+            text-transform: uppercase;
+
+
+        }
+
+        #upcome .upcome .home1 p::first-letter {
+            text-transform: capitalize;
+        }
+
+        #upcome .upcome .home1 p {
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+
+        #upcome .upcome .photo img {
+            width: 91%;
+            margin: 0% auto;
+            height: 630px;
+            margin-top: 30px;
+            display: block;
+            border: 1px solid;
+
+        }
+
+        #upcome .home3 {
+            padding: 10px;
+            border-left: 1px solid #726E68;
+            width: 42%;
+            margin-top: 20px;
+        }
+
+        #upcome .home3 h2 {
+            font-size: 70px;
+            text-align: center;
+            font-weight: bold;
+            size: 300px;
+            color: #1C1C1A;
+            text-transform: uppercase;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #upcome .home3 h1 {
+            font-size: 110px;
+            text-align: center;
+            font-weight: bold;
+            size: 300px;
+            color: #1C1C1A;
+            line-height: 35px;
+            text-transform: uppercase;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        #upcome .home3 h5 {
+            font-size: 45px;
+            display: block;
+            margin: 0% 23px;
+            color: #1C1C1A;
+
+            word-spacing: 2px;
+            font-weight: 500;
+            line-height: 40px;
+            font-style: normal;
+            text-indent: 20px;
+            font-family: 'Oswald';
+            color: #1B1B19;
+
+        }
+
+        #upcome .home3 h5 span {
+            font-size: 55px;
+            background-color: black;
+            color: #C6BEB4;
+
+            width: 50px;
+            height: 70px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        }
+
+        #upcome .home3 #h5 {
+            width: 100%;
+
+        }
+
+        .all-work {
+            width: 380px;
+
+            margin: 0% auto;
+            margin-top: 25px;
+            border-radius: 160px;
+            border: 1px solid #726E68;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            
+            transition-delay:2s ;
+            transition-duration: 10s;
+            transition-timing-function: ease-out
+            
+        }
+
+
+        .all-work h3 {
+          font-family: math;
+    font-size: 55px;
+    margin-left: -131px;
+    text-transform: uppercase;
+    color: #1C1C1A;
+
+        }
+        .all-work img{
+           font-size: 99px;
+    width: 140px;
+    transform: translateX(-205px);
+        }
+        .all-work:hover img{
+            transform: translateX(70px);
+        }
+        .all-work:hover h3{
+            transform: translateX(120%);
+        }
+
+        .award {
+            width: 100%;
+            border-top: 1px solid #706D67;
+            border-bottom: 1px solid #706D67;
+            display: flex;
+
+            height: 180px;
+            margin-top: 50px;
+        }
+
+        .award .container {
+            width: 25%;
+            height: 180px;
+            display: flex;
+            /* border:1px solid #1C1C1A; */
+            margin-left: 20px;
+            padding: 20px;
+        }
+
+        .award .container .item1 {
+            width: 70%;
+            /* border: 1px solid black; */
+        }
+
+        .award .container .item1 .child1 {
+            width: 100%;
+            height: 68px;
+            /* border: 1px solid black; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .award .container .item1 .child1 p {
+            font-size: 18px;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            font-weight: bold;
+
+        }
+
+        .award .container .item1 .child2 {
+            width: 100%;
+            height: 68px;
+            /* border: 1px solid black; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .award .container .item1 .child2 h1 {
+            font-size: 33px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: fangsong;
+        }
+
+        .award .container .item2 {
+            width: 30%;
+            /* border: 1px solid black; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all;
+        }
+
+        .award .container .item2 h1 {
+            font-size: 140px;
+            font-family: sans-serif;
+        }
+
+        .the-pixels {
+            width: 100%;
+            height: 670px;
+
+            display: flex;
+            margin-top: 50px;
+        }
+
+        .the-pixels .pixels1 {
+            width: 50%;
+
+
+
+        }
+
+        .the-pixels .pixels1 .item1 {
+            width: 100%;
+            height: 350px;
+
+
+            display: flex;
+        }
+
+        .the-pixels .pixels1 .item1 .dabba1 {
+
+            width: 40%;
+            padding: 10px;
+        }
+
+        .the-pixels .pixels1 .item1 .dabba1 img {
+            width: 100%;
+            height: 325px;
+            border: 1px solid #1d1d1b;
+        }
+
+        .the-pixels .pixels1 .item1 .dabba2 {
+
+            width: 60%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .the-pixels .pixels1 .item1 .dabba2 p {
+            text-transform: uppercase;
+            font-size: 250px;
+            font-family: fantasy;
+            color: #1C1C1A;
+
+        }
+
+        .the-pixels .pixels1 .item2 {
+            width: 100%;
+            height: 318px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        .the-pixels .pixels1 .item2 h1 {
+            text-transform: uppercase;
+            font-size: 250px;
+            font-family: fantasy;
+            color: #1C1C1A;
+
+
+        }
+
+        .the-pixels .pixels2 {
+            width: 50%;
+
+            padding: 20px;
+        }
+
+        .the-pixels .pixels2 img {
+            width: 100%;
+            border: 1px solid #1d1d1b;
+        }
+        #perfect{
+            width: 100%;
+            height: 570px;
+            
+            
+        }
+        #perfect .perfect1{
+            width: 100%;
+            height:310px ;
+            
+            padding: 12px;
+            display: flex;
+
+        }
+        #perfect .perfect1 img{
+            width: 25%;
+            border:1px solid #1C1C1A;
+        }
+        #perfect .perfect1 .item1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 75%;
+            height: 300px;
+            
+
+
+        }
+        #perfect .perfect1 h1{
+            font-size: 300px;
+            text-transform: uppercase;
+            font-family: fantasy;
+
+        }
+
+        #perfect .perfect2{
+            width: 100%;
+            height:300px ;
+            border-bottom: 1px solid #706D67;
+            
+            padding: 12px;
+            display: flex;
+        }
+        #perfect .perfect2 .item1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 65%;
+            height: 260px;
+            
+            background-color: #1d1d1b;
+
+            
+        }
+        #perfect .perfect2 .item1
+        h1{  font-size: 245px;
+            text-transform: uppercase;
+            font-family: fantasy;
+            color: #C6BEB4;
+
+        }
+        #perfect .perfect2 .item2{
+            width: 35%;
+            height: 260px;
+            
+            padding: 10px; 
+        }
+        #perfect .perfect2 .item2>p{
+            font-size: 21px;
+            font-family: Oswald;
+            font-weight:500;
+        }
+        #perfect .perfect2 .item2 h2{
+            font-size: 65px;
+            text-transform: uppercase;
+            margin: 3px;
+            font-family: fantasy;
+        }
+        #perfect .perfect2 .item2 p a{
+            text-decoration: none;
+            color: #1d1d1b;
+            border-bottom: 1px solid #706D67;
+        }
+     
+      section #home .home1 h3 .img1{
+        width: 145px;
+       }
+       .top{
+        margin-top: 40px;
+       }
+       .move{
+        width: 100%;
+        height: 145px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        padding: 35px 0px;
+        margin: 30px 0px;
+        white-space: nowrap;
+        overflow-x: auto;
+        overflow-y: hidden;
+
+        
+       }
+       .move::-webkit-scrollbar{
+        display: none;
+       }
+       
+       .move h1{
+        font-size: 60px;
+        font-family: Oswald;
+        font-weight: 100;
+        display: inline-block;
+        margin-right: 24px;
+        animation-name:scroll ;
+        animation-duration: 7s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        text-transform: uppercase;
+       }
+       @keyframes scroll {
+        0%{
+            transform: translateX(0);
+        }
+        100%{
+            transform:translateX(calc(-100% - 24px))
+        }
+        
+       }
+       .move:hover h1{
+        animation-play-state: paused;
+       }
+       .move h1 span{
+        font-family: fantasy;
+        color: #C6BEB4;
+        background-color: #1C1C1A;
+        padding: 0px 8px;
+       }
+       #footer{
+        height: 70px;
+        width: 100%;
+        
+        display: flex;
+        justify-content: space-between;
+       }
+       #footer .footer1{
+        display: flex;
+        margin: 10px 12px;
+       }
+       #footer .footer1 h4{
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+       }
+       #footer .footer1 img{
+        width: 30px;
+        height: 40px;
+        margin: 0px 10px;
+        
+       }
+       #footer .footer1 p{
+        font-size: 17px;
+        text-transform: uppercase;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        font-weight: 600;
+        
+       }
+       #footer .footer2{
+        display: flex;
+        margin: 10px 12px;
+       }
+       #footer .footer2 ol{
+        display: flex;
+        list-style:none;
+       }
+       
+       #footer .footer2 ol li a{
+        text-decoration: none;
+        padding: 0px 10px;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: #1C1C1A;
+        text-transform: uppercase;
+
+
+       }
+
+       @media  screen and ( max-width:1024px) and (min-width:767px){
+        #miranda .miranda p{
+            font-size: 150px;
+        }
+        #home .home2 h1{
+            font-size: 3vw;
+        }
+        #miranda .miranda{
+            height: 20rem;
+        }
+        #artist .art h1 span {
+            font-size: 3rem
+       }
+ #artist .art h1 {
+    font-size: 4.8vw;
+}
+ #artist .digital-art img {
+    width: 26rem;
+    height: 420px;
+}
+    #artist .art img {
+    width: 80%;
+    height: 335px;
+}
+                #artist .digital-art h2 {
+                    size: 300px;
+                    font-size: 43px;
+                    margin-top: 20px;}
+                    #artist .art h5 {
+                        font-size: 25px;}
+                        #artist .art h5 span {
+                            font-size: 55px;}
+                            #website .website p {
+                                font-size: 90px;}
+                                #website .website{
+                                    height: 11rem 
+                                }
+                                .website1 img {
+                                    height: 20vh;
+                                }
+                                #upcome .upcome .home2{
+                                    margin: 0%;
+                                }
+                                #upcome .upcome .home2 h1{
+                                    font-size: 25px;
+                                }
+                                #upcome .upcome .home2 h2{
+                                    font-size: 20px;
+                                }
+                                #upcome .upcome .home1 {
+                                    width: 45%;}
+                                    #upcome .home3 h2 {
+                                        font-size: 40px;}
+                                        #upcome .home3 h1 {
+                                            font-size: 60px;}
+                                            #upcome .home3 h5 {
+                                                font-size: 25px;}
+                                                .all-work{
+                                                    width: 270px;
+                                                    height: 110px;
+                                                }
+                                                .all-work h3 {
+                                                    font-size: 30px;
+                                                    margin-left: 0px;
+                                                    
+                                                }
+                                                .all-work img{
+                                                    display: none;
+                                                }
+                                                #upcome .upcome .photo img{
+                                                    height: 580px;
+                                                }
+                                                .award .container .item1 .child2 h1 {
+                                                    font-size: 20px;}
+                                                    .award .container .item1 .child1 p {
+                                                        font-size: 15px;}
+                                                        .award .container .item2 h1 {
+                                                            font-size: 70px;}
+                                                            .the-pixels .pixels1 .item1 .dabba2 p {
+                                                                font-size:150px ;
+                                                            }
+                                                           
+                                                            .the-pixels .pixels1 .item2 h1{
+                                                                font-size: 137px;
+                                                            }
+                                                            #perfect .perfect1 h1 {
+                                                                font-size: 150px;}
+                                                                #perfect .perfect2 .item1 h1 {
+                                                                    font-size: 132px;}
+                                                                    #perfect .perfect2 .item2>p {
+                                                                        font-size: 18px;}
+                                                                        #perfect .perfect2 .item2 h2 {
+                                                                            font-size: 45px;}
+                                                                            #home .home2 h2 {
+                                                                                font-size: 20px;
+                                                                            }
+                                                                            .the-pixels .pixels1 .item2{
+                                                                                height: 150px;
+                                                                            }
+                                                                           
+                                                                            .the-pixels{
+                                                                                height: 535px;
+                                                                            }
+                                                                            .move h1 {
+                                                                                font-size: 45px;}
+                                                                                .move {
+                                                                                    height: 120px;
+                                                                                }
+                                                                                #footer .footer2 ol li a{
+                                                                                    font-size: 15px;
+                                                                                }
+                                                                                #home .home3 p{
+                                                                                    font-size: 14px;
+                                                                                }
+                                                                                #home .home1 p{
+                                                                                    font-size: 14px;
+                                                                                }
+                                                                                section #home .home1 h3 .img1 {
+                                                                                    width: 100px;
+                                                                                }
+                                                                                #home .home3 h3 span {
+                                                                                    font-size: 12px;
+                                                                                    width: 35px;
+                                                                                    height: 13px;}
+                                                                                    #home .home3 h3 .img1{
+                                                                                        width: 65px;
+                                                                                    }
+                                                                                    #home .home1 h3 span{
+                                                                                        font-size: 12px;
+                                                                                        width: 35px;
+                                                                                        height: 13px;
+                                                                                    }
+                                                                                    #home .home3 h3 .rr {
+                                                                                        width: 115px;
+                                                                                       
+                                                                                    }
+    }
+
+
+@media  screen and ( max-width:766px) and (min-width:250px){
+   
+    .naber .first{
+        display: none;
+    }
+    .hamburger {
+        display: none;
+    }
+    .naber{
+        justify-content: center;
+    }
+    .naber .second img{
+        margin:0px;
+    }
+    #home {
+        display: none;
+    }
+    #miranda .miranda p {
+        font-size: 70px;
+    }
+    #miranda .miranda{
+        height: 25vh;
+    }
+    #artist .art{
+        display: none;
+    }
+    #artist .digital-art{
+        width: 100%;
+        padding: 11px;
+    }
+    #artist{
+        margin-top: 0px;
+    }
+    #artist .digital-art img{
+        width: 100%;
+        height: 20rem;
+    }
+    #artist .digital-art h2{
+        font-size: 37px;
+        font-weight: bold;
+    }
+    .website1{
+        display: none;
+    }
+    #website .website{
+        width: 100%;
+        height: 20vh;
+        margin: 10px 20px;
+    }
+    #website .website p {
+        font-size: 70px;
+    }
+    #upcome .home3{
+        display: none;
+    }
+    #upcome .upcome .home2 {
+        width: 100%;
+        border-left: 1px solid #726E68;
+        margin-bottom: 20px;
+
+    }
+    #upcome .upcome .home1 {
+        width: 100%;
+        margin-top:0px ;
+    }
+    #upcome .upcome .home1 h3 .img1 {
+        width: 130px;
+    }
+    #upcome .upcome .home1 p{
+        font-size: 17px;
+    }
+    #upcome .upcome .home2 h6 {
+        font-size: 17px;
+    }
+    #upcome .upcome .photo img{
+        height: 365px;
+    }
+    .award{
+        display: none;
+    }
+    .the-pixels{
+        display: none;
+    }
+   
+    #perfect {
+        height: 160px;
+    }
+    #perfect .perfect1 h1{
+        font-size: 20vw
+    }
+    #perfect .perfect1 .item1{
+        height: 140px;
+    }
+    #perfect .perfect1 img {
+        height: 100px;
+        margin: 10px;
+    }
+    #perfect .perfect1{
+        height: 170px;
+        margin-top: 30px;
+        border: 1px solid #726E68;
+    }
+    #perfect .perfect2 .item1 h1{
+        font-size: 65px;
+    }
+    #perfect .perfect2 .item1 {
+        height: 100px;
+    }
+    #perfect .perfect2{
+        display: none;
+    }
+    .top{
+        display: none;
+    }
+    .move{
+        height: 40px;
+    }
+    .move h1{
+        font-size: 20px;
+    }
+    #footer .footer1 h4 {
+        font-size: 3vw;
+    }
+    #footer .footer1 img{
+        height: 20px;
+        display: none;
+    }
+    footer .footer2 {
+        display: flex;
+        margin: 0px 5px;
+    }
+    #footer .footer2 {
+        display: flex;
+        margin: -3px 12px;
+    }
+    #footer .footer1{
+        margin: 0px 10px;
+    }
+    #footer .footer2 ol li a{
+        
+        padding: 0px 5px;
+        font-size: 3vw;
+        
+    }
+    #footer .footer1 p {
+        font-size: 3vw;
+        display: none;
+    }
+    #footer{
+        height: 4vh;
+    }
+
+
+}
+
+
+
+
+
